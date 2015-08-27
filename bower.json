@@ -1,0 +1,33 @@
+{
+  "name": "Patoma Worpress Theme",
+  "version": "0.0.1",
+  "authors": [
+    "sergioofarrill <azulofarrill@gmail.com>"
+  ],
+  "description": "Custom theme built for the Patoma Website",
+  "keywords": [
+    "Wordpress",
+    "Bower"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-lightbox": "git://github.com/jbutz/bootstrap-lightbox.git#~0.7.0",
+    "jquery.scrollTo": "~2.1.1"
+  },
+  "devDependencies": {
+    "bootstrap": "~3.3.5",
+    "flexslider": "~2.5.0",
+    "font-awesome": "~4.4.0",
+    "jquery": "~2.1.4",
+    "magnific-popup": "~1.0.0",
+    "Parallax-ImageScroll": "~0.2.3"
+  }
+}

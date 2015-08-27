@@ -1,0 +1,195 @@
+/*!
+*PATOMA CUSTOM CSS
+!*/
+
+@font-face {
+  font-family: 'GothamBook';
+  src: url('../fonts/GothamBook.woff2');
+}
+@font-face {
+  font-family: 'GothamLight';
+  src: url('../fonts/GothamLight.woff2');
+}
+body{
+	font-family: "GothamBook", Arial, sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+/*
+.site-header {
+background-image: url(../img/Patoma_Header_img.png);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+*/
+.section-title{
+	margin:35px 0px;
+}
+.nav li{
+	float: none;
+	font-size: 12px;
+}
+.navbar-brand, ul.nav {	
+	margin-top: 30px;
+}
+.nav>li>a{
+	padding:0px;
+}
+a {
+	color:black;
+}
+a:hover {
+	color:#c69c6d;
+}
+
+.navbar-nav{
+	float: right;
+	min-height: 402px;
+}
+h1, h2, h3 ,h4 ,h5{
+	
+	font-weight: normal;
+	color:#c69c6d;
+	text-align: center;
+	font-size: 14px;
+}
+.main-header{
+	text-indent: -99999px
+}
+
+.about{
+	background-color: black;
+	color: white;
+	padding-bottom: 70px;
+	}
+p.about-txt {
+    padding: 0px 23px;
+}
+.divider{
+	height: 10px;
+	background-color: #c69c6d;
+}
+.team-section{
+	margin-bottom: 30px;
+}
+.team-img{
+	border:4px solid #c69c6d;
+}
+.featurette p{
+	line-height: 17px;
+}
+
+.featured-txt {
+	
+	font-size: 18px;
+	color: black;
+}
+
+.gallery-container{
+	background-color: black;
+
+
+}
+
+.gallery-container img {
+    margin-bottom: 30px;
+    transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
+    opacity:  .3;
+    moz-opacity:  .3;
+    webkit-opacity:  .3;
+}
+.gallery-container img:hover {
+    opacity:  1;
+    moz-opacity:  1;
+    webkit-opacity: 1;
+}
+.popover {
+	font-family: "GothamBook", Arial, sans-serif;
+	font-size: 11px;
+}
+.popover-content ul{ 
+	margin:0px; padding:0px;
+}
+.popover { 
+	max-width: 100%;
+}
+.popover-content ul { 
+	list-style-type: none 
+} 
+.popover-content li:before { 
+	content: ". "; color: black; font-size: 15px; 
+}  
+.popover.bottom {
+    margin-top: -20px;
+}
+div.popover-content {
+	padding: 30px 28px;
+}
+.info-container{}
+
+input, .form-control, .submit-btn{
+	background-color: black;
+	color:white;
+}
+.img-container {
+	position: relative;
+	display:block;
+
+}
+.img-container a {
+    color: #c69c6d;
+}
+
+
+.intxt {
+    position: absolute;
+    top: 30%;
+    left: 16%;
+	font-size: 10px;
+    display:block;
+}
+
+
+a p.gold_txt { 
+	color:#c69c6d; 
+}
+.form-group {
+    margin-bottom: 38px;
+}
+.submit-btn:hover{
+	color:#c69c6d; 
+}
+
+.contact{
+	margin-bottom: 80px;
+}
+
+footer, .footer {
+ 
+  height: 120px;
+  clear:both;
+  padding-top:20px;
+  background-color: black;
+  color:white;
+} 
+
+.scrollup {
+    width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	cursor: pointer;
+	border-bottom: 10px solid black;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    display: none;
+    text-indent: -9999px;
+
+}
